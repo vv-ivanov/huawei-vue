@@ -1,0 +1,36 @@
+// Fonts
+$font_path: '../assets/fonts/';
+
+@font-face {
+    font-family: 'Oswald';
+    src: url($font_path + 'Oswald-Regular.eot');
+    src: url($font_path + 'Oswald-Regular.eot?#iefix') format('embedded-opentype'),
+        url($font_path + 'Oswald-Regular.woff2') format('woff2'),
+        url($font_path + 'Oswald-Regular.woff') format('woff'),
+        url($font_path + 'Oswald-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Arial-Regular';
+    src: url($font_path + 'ArialMT.eot');
+    src: url($font_path + 'ArialMT.eot?#iefix') format('embedded-opentype'),
+        url($font_path + 'ArialMT.woff2') format('woff2'),
+        url($font_path + 'ArialMT.woff') format('woff'),
+        url($font_path + 'ArialMT.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Arial-Bold';
+    src: url($font_path + 'Arial-BoldMT.eot');
+    src: url($font_path + 'Arial-BoldMT.eot?#iefix') format('embedded-opentype'),
+        url($font_path + 'Arial-BoldMT.woff2') format('woff2'),
+        url($font_path + 'Arial-BoldMT.woff') format('woff'),
+        url($font_path + 'Arial-BoldMT.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+

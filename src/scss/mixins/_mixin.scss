@@ -1,0 +1,22 @@
+//миксин для шрифтов
+@mixin fontStyle($size, $lineHeight, $color) {
+    font-size: $size;
+    line-height: $lineHeight;
+    color: $color;
+  }
+
+  @mixin arial-r{
+    font-family: 'Arial-Regular', sans-serif;
+    font-weight: normal;
+    font-style: normal;
+  }
+  @mixin arial-b{
+    font-family: 'Arial-Bold', sans-serif;
+    font-weight: bold;
+    font-style: normal;
+  }
+  @mixin oswald-r{
+    font-family: 'Oswald', sans-serif;
+    font-weight: normal;
+    font-style: normal;
+  }
